@@ -12,8 +12,8 @@ public class LoadDataDemo {
     public static void main(String[] args) throws ClassNotFoundException, SQLException{
         System.out.println("The task is begin...");
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://39.97.173.219/eBusiness",
-                "root", "123XKB!@#.com");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://39.4g.219/eBusiness",
+                "root", "asfg");
         Statement stmt = conn.createStatement();
         long begin = System.currentTimeMillis();
         String loadDataSQL = "load data LOCAL INFILE '/Users/aoyonggang/Downloads/1million.txt' \n" +

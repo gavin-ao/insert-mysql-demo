@@ -12,8 +12,8 @@ public class StatementDemo {
     public static void main(String[] args) throws Exception {
         System.out.println("The task is begin...");
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://39.97.173.219/eBusiness",
-                "root", "123XKB!@#.com");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://39.53.29/eBusiness",
+                "root", "s");
         Statement stmt = conn.createStatement();
 
         //normalInsert(stmt);//about 360s handle 10000 records

@@ -11,10 +11,10 @@ import java.sql.SQLException;
 public class PrepareStatementDemo {
     public static void main(String[] args) throws Exception {
         String driverClassName = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://39.97.173.219:3306/eBusiness" +
+        String url = "jdbc:mysql://3g.19:3306/eBu4siness" +
                 "?useServerPrepStmts=true&cachePreStmts=true";
         String username="root";
-        String password="123XKB!@#.com";
+        String password="1m";
         Class.forName(driverClassName);
         Connection conn = DriverManager.getConnection(url, username, password);
         String sql = "insert into `user`(id, name, age, sex) values(?, 'axax', 23, 1)";
